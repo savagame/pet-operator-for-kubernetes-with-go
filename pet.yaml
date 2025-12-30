@@ -1,0 +1,7 @@
+apiVersion: petstore.example.com/v1alpha1
+kind: Pet
+metadata:
+  name: my-pet
+spec: 
+  name: Thor
+  type: dog

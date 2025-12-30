@@ -1,0 +1,9 @@
+apiVersion: petstore.example.com/v1alpha1
+kind: Pet
+metadata:
+  labels:
+    app.kubernetes.io/name: pet-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: pet-sample
+spec:
+  # TODO(user): Add fields here
